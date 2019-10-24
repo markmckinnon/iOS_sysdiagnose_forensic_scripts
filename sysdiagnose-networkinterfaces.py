@@ -42,6 +42,9 @@ with open(options.inputfile, 'rb') as fp:
             for key, val in dictn['SCNetworkInterfaceInfo'].items():
                 if key == 'UserDefinedName':
                     print("UserDefinedName = " + val)
+            
+        print("==================================")
+
         
 
 
